@@ -3,8 +3,32 @@
 @tailwind utilities;
 
 @layer components {
-    h1
+    .general
     {
-        @apply py-8 px-4 border border-indigo-900 shadow-lg bg-blue-500;
+        @apply w-full flex flex-row;
+    }
+    .mostrar
+    {
+        @apply flex w-full border border-gray-500;
+    }
+    .forms
+    {
+        @apply flex flex-col w-2/5;
+    }
+    .form_game, .form_genre
+    {
+        @apply border border-gray-400 p-5;
+    }
+    .form_game form, .form_genre form
+    {
+        @apply w-full;
+    }
+    .form_game input, .form_game textarea, .form_genre input, .form_genre textarea
+    {
+        @apply w-full;
+    }
+    .send
+    {
+        @apply m-auto bg-red-400 py-1 px-2 border border-red-400 rounded-md shadow-sm text-sm leading-4 font-medium text-gray-700 hover:bg-red-500 hover:text-gray-100;
     }
 }

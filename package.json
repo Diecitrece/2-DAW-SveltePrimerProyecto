@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.3.4",
+    "firebase": "^9.1.2",
     "sirv-cli": "^1.0.0"
   }
 }
